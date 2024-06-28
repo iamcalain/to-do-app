@@ -1,0 +1,15 @@
+#task-assignment {
+  width: 500px;
+  text-align: start;
+}
+
+main {
+  text-align: left;
+  margin: 20px 375px;
+}
+
+* {
+  text-align: center;
+  margin: 5px 5px;
+  font-family: "Courier New", Courier, monospace;
+}
