@@ -1,15 +1,55 @@
-#task-assignment {
-  width: 500px;
-  text-align: start;
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
 }
 
-main {
-  text-align: left;
-  margin: 20px 375px;
-}
-
-* {
+h1 {
   text-align: center;
-  margin: 5px 5px;
-  font-family: "Courier New", Courier, monospace;
+}
+
+#todo-form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+#todo-form input, textarea {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  flex-grow: 1;
+}
+
+#add-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 5px;
+}
+
+.todo-item p {
+  margin: 0;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #aaa;
 }
